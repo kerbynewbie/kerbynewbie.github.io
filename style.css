@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg.png);
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+}
+
+.navbar{
+    width: 1400px;
+    height: 70px;background-size: cover;
+    margin-top: 0px;
+    padding-left: 15px;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: mediumseagreen;
+    font-size: 35px;
+    font-family: 'Gill Sans MT';
+    padding-left: 10px;
+    float: left;
+    padding-top: 35px;
+    margin-left: 23px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    padding-top: 23px;
+    margin-left: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: 14px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: bisque;
+    font-family:'Trebuchet MS';
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover{
+    color: lightsteelblue;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 330px;
+    margin-top: 33px;
+    color: #f9f9f9;
+}
+
+.srch{
+    font-family:'Trebuchet MS';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1.5px solid bisque;
+    color: #f9f9f9;
+    margin-top: 13px;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background:  bisque;
+    border: 1.5px solid bisque;
+    margin-top: 5px;
+    font-family: 'Gill Sans MT';
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px; 
+    float: left;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:hover{
+    background-color:mediumseagreen;
+    border:green;
+}
+
+.srch:focus{
+    outline: 2px;
+    color: black;
+}
+
+.content1{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:azure;
+    position: relative;
+
+}
+
+.content1 .par1{
+    padding-left: 9%;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    color: beige;
+}
+
+.content1 h1{
+    font-family: Arial;
+    font-size: 50px;
+    padding-left: 9%;
+    margin-top: 7.3%;
+    margin-left: 0px;
+    letter-spacing: 2px;
+    color: beige;
+}
+
+.btn2{
+    background: bisque;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-top: 0px;
+    font-size: 14px;
+    font-family: 'Trebuchet MS';
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+}
+
+.btn2:hover{
+    background-color: mediumseagreen;
+}
+
+.login{
+    margin-top: 20px;
+    margin-left: 100px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: bold;
+    color: black;
+    padding: 5px 10px;
+    background-color: bisque;
+}
+
+.login:hover{
+    background-color: mediumseagreen;
+}
+
+.form{
+    width: 300px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(176,196,222,0.8)50%, rgba(176,196,222,0.8)50%);
+    position: absolute;
+    margin-top: 28px;
+    top: -20px;
+    left: 720px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 240px;
+    font-family: 'Gill Sans MT';
+    text-align: center;
+    color: bisque;
+    font-size: 22px;
+    border-radius: 5px;
+    margin-left: 22px;
+    padding: 8px;
+}
+
+.form input{
+    width: 285px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-family: monospace;
+    padding-left: 10px;
+}
+
+.btn4{
+    margin-top: 0;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 5px 10px;
+    background-color: bisque;
+    font-family: 'Gill Sans MT';
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.cancelbtn:hover{
+    opacity: 0.8;
+    background-color: crimson;
+}
+
+.psw{
+    margin-left: 100px;
+    text-decoration: none;
+    text-decoration-line: 0px;
+}
